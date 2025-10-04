@@ -10,6 +10,9 @@ scikit-learn>=1.3.0
 # gensim>=4.3.0  # Temporarily disabled - compilation issues with Python 3.13
 # Note: LDA functionality will use scikit-learn's LatentDirichletAllocation instead
 
+# spaCy language model (for Streamlit Cloud deployment)
+https://github.com/explosion/spacy-models/releases/download/es_core_news_lg-3.8.0/es_core_news_lg-3.8.0-py3-none-any.whl
+
 # Data Processing
 pandas>=2.1.0
 numpy>=1.25.0
