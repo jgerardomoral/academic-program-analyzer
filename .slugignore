@@ -1,0 +1,54 @@
+# Heroku Slug Ignore - Reduce deployment size
+# Files listed here will be excluded from the Heroku slug
+
+# Documentation
+*.md
+CLAUDE.md
+PYTHON_313_NOTES.md
+VISUALIZATION_IMPLEMENTATION_REPORT.md
+DEPLOYMENT.md
+docs/
+
+# Tests
+tests/
+.pytest_cache/
+*.test.py
+conftest.py
+
+# Development files
+venv/
+.venv/
+notebooks/
+examples/
+.git/
+.gitignore
+
+# Data files (will be uploaded during runtime)
+data/raw/
+data/processed/
+outputs/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Docker files (not needed in Heroku)
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Configuration examples
+.env.example
+Plan de implementación.ini

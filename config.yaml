@@ -1,0 +1,101 @@
+# Configuración General
+app:
+  name: "Análisis de Programas de Estudio"
+  version: "1.0.0"
+  debug: false
+
+# Paths
+paths:
+  raw_pdfs: "data/raw"
+  processed: "data/processed"
+  cache: "data/cache"
+  taxonomia: "data/taxonomia/habilidades.json"
+  stopwords: "data/taxonomia/stopwords_custom.txt"
+  outputs: "outputs"
+
+# NLP Configuration
+nlp:
+  spacy_model: "es_core_news_lg"
+  min_word_length: 3
+  max_word_length: 30
+  remove_numbers: true
+  lemmatize: true
+  pos_tags_keep: ["NOUN", "VERB", "ADJ"]
+
+# Stopwords adicionales (académicas)
+stopwords_custom:
+  - "universidad"
+  - "asignatura"
+  - "créditos"
+  - "ects"
+  - "semestre"
+  - "curso"
+  - "requisito"
+  - "página"
+
+# Análisis de Frecuencias
+frequency:
+  top_n_terms: 50
+  ngram_range: [1, 3]
+  tfidf_max_features: 500
+  min_df: 2
+  max_df: 0.8
+
+# Topic Modeling
+topics:
+  default_n_topics: 10
+  min_topics: 3
+  max_topics: 20
+  lda_iterations: 100
+  lda_passes: 10
+  coherence_threshold: 0.4
+
+# Skills Mapping
+skills:
+  min_confidence: 0.3
+  weight_tfidf: 0.6
+  weight_frequency: 0.4
+
+# UI Configuration
+ui:
+  theme: "light"
+  max_upload_size_mb: 50
+  results_per_page: 20
+  cache_ttl_hours: 24
+
+# Export
+export:
+  default_format: "xlsx"
+  include_charts: true
+  chart_dpi: 300
+
+# Visualization Configuration
+visualization:
+  # WordCloud settings
+  wordcloud:
+    width: 800
+    height: 400
+    background_color: "white"
+    colormap: "viridis"
+    relative_scaling: 0.5
+    min_font_size: 10
+    max_words: 200
+    prefer_horizontal: 0.7
+
+  # Plotly chart settings
+  plotly:
+    theme: "plotly_white"
+    color_scale: "Viridis"
+    default_height: 500
+    bar_chart_height: 400
+    heatmap_row_height: 30
+    radar_height: 500
+    network_height: 600
+    colors:
+      primary: "#636EFA"
+      secondary: "#EF553B"
+      tertiary: "#00CC96"
+      quaternary: "#AB63FA"
+    heatmap:
+      colorscale: "RdYlGn"
+      show_values_threshold: 0.1

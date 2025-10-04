@@ -1,0 +1,72 @@
+{
+  "pensamiento_critico": {
+    "name": "Pensamiento Crítico",
+    "keywords": ["análisis", "evaluar", "criticar", "argumentar", "razonar", "analizar"],
+    "synonyms": ["analítico", "crítico", "evaluativo", "reflexivo"],
+    "weight": 1.0,
+    "category": "cognitiva"
+  },
+  "programacion": {
+    "name": "Programación",
+    "keywords": ["código", "programar", "algoritmo", "software", "desarrollo", "programación"],
+    "synonyms": ["codificar", "implementar", "desarrollar", "programático"],
+    "weight": 1.0,
+    "category": "tecnica"
+  },
+  "resolucion_problemas": {
+    "name": "Resolución de Problemas",
+    "keywords": ["resolver", "problema", "solución", "optimizar", "problemas"],
+    "synonyms": ["solucionar", "abordar", "solucionador"],
+    "weight": 1.0,
+    "category": "cognitiva"
+  },
+  "matematicas": {
+    "name": "Matemáticas",
+    "keywords": ["cálculo", "álgebra", "geometría", "estadística", "matemática", "matemáticas"],
+    "synonyms": ["numérico", "cuantitativo", "matemático"],
+    "weight": 0.9,
+    "category": "tecnica"
+  },
+  "comunicacion": {
+    "name": "Comunicación",
+    "keywords": ["comunicar", "presentar", "expresar", "comunicación", "expresión"],
+    "synonyms": ["transmitir", "exponer", "comunicativo"],
+    "weight": 0.8,
+    "category": "interpersonal"
+  },
+  "trabajo_equipo": {
+    "name": "Trabajo en Equipo",
+    "keywords": ["equipo", "colaborar", "colaboración", "grupal", "cooperar"],
+    "synonyms": ["cooperación", "colaborativo", "teamwork"],
+    "weight": 0.8,
+    "category": "interpersonal"
+  },
+  "investigacion": {
+    "name": "Investigación",
+    "keywords": ["investigar", "investigación", "explorar", "indagar", "estudio"],
+    "synonyms": ["exploración", "búsqueda", "investigativo"],
+    "weight": 0.9,
+    "category": "cognitiva"
+  },
+  "diseno": {
+    "name": "Diseño",
+    "keywords": ["diseñar", "diseño", "modelar", "planificar", "arquitectura"],
+    "synonyms": ["modelado", "planeación", "arquitectónico"],
+    "weight": 0.85,
+    "category": "tecnica"
+  },
+  "gestion_proyectos": {
+    "name": "Gestión de Proyectos",
+    "keywords": ["gestión", "proyecto", "planificación", "organización", "administración"],
+    "synonyms": ["gestionar", "administrar", "gerencial"],
+    "weight": 0.85,
+    "category": "profesional"
+  },
+  "creatividad": {
+    "name": "Creatividad",
+    "keywords": ["crear", "innovar", "creatividad", "innovación", "original"],
+    "synonyms": ["creativo", "innovador", "inventivo"],
+    "weight": 0.8,
+    "category": "cognitiva"
+  }
+}

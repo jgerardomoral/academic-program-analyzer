@@ -1,0 +1,35 @@
+# Production Dependencies for Academic Program Analyzer
+# Generated for deployment to Docker, Heroku, Railway, etc.
+
+# PDF Processing
+pdfplumber==0.11.4
+PyPDF2==3.0.1
+tabula-py==2.9.3
+
+# NLP
+spacy==3.7.6
+nltk==3.9.1
+scikit-learn==1.5.2
+
+# Data Processing
+pandas==2.2.3
+numpy==1.26.4
+scipy==1.14.1
+
+# Visualization
+matplotlib==3.9.2
+seaborn==0.13.2
+plotly==5.24.1
+wordcloud==1.9.3
+
+# Streamlit & UI
+streamlit==1.39.0
+streamlit-aggrid==1.0.5
+streamlit-option-menu==0.4.0
+
+# Utils
+pyyaml==6.0.2
+python-dotenv==1.0.1
+Pillow==10.4.0
+openpyxl==3.1.5
+tqdm==4.67.0

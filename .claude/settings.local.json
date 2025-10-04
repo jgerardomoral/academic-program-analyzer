@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(tree:*)",
+      "Bash(findstr:*)",
+      "Bash(python -m pytest tests/test_extraction.py -v)",
+      "Bash(python:*)",
+      "Bash(python -m pytest tests/test_analysis.py -v)",
+      "Bash(venvScripts:*)",
+      "Bash(test:*)",
+      "Bash(iconv:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
